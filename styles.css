@@ -1,0 +1,113 @@
+/* Styles Grid 1 go here */
+
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+
+/* Styles Grid 2 go here */
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-bottom: 2rem;
+}
+
+.whatever{
+    background-color: red;
+}
+
+.text{
+    background-color: blue;
+}
+
+.iwant{
+    background-color: yellow;
+}
+
+/* Styles Grid 3 go here */
+
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.gridThree-paragraph{
+    background-color: red;
+}
+
+.gridThree-image{
+    background-color: blue;
+    width:500px;
+    height: 225px;
+}
+
+.gridThree-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles Grid 4 go here */
+
+.gridFour{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+    margin-bottom: 2rem;
+}
+
+#gridFour-child-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles Grid 5 go here */
+
+.gridFive{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    width: 500px;
+    margin-bottom: 2rem;
+}
+
+#gridFive-images{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height: auto;
+}
+
+#left-image{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#right-image{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/* Styles Grid 6 go here */
+
+.gridSix{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: lightgray;
+    width: 500px;
+}
+
+.gridSix p{
+    font-size: 0.9rem;
+    font-family: 'Permanent Marker', cursive;
+}
